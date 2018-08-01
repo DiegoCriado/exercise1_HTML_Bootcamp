@@ -1,24 +1,74 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+
 <body>
-<header style="font-family:cursive">
-    <h1>My todo list</h1>
-    <ul>
-        <li>Read topic 0</li>
-        <li>Do the exercises</li>
-        <li>Practice a lot</li>
-        <li>Continue practicing</li>
-        <li>Play the guitar</li>
-    </ul>
-</header>
+    <header style="font-family:cursive">
+        <h1>My todo list</h1>
+        <ul>
+            <li>Read topic 0</li>
+            <li>Do the exercises</li>
+            <li>Practice a lot</li>
+            <li>Continue practicing</li>
+            <li>Play the guitar</li>
+        </ul>
+        <hr>
+    </header>
+
+    <main>
+        <br>
+        <form action="directionToSendTheData@..." method="POST" enctype="text/plain">
+            <fieldset>
+                <legend>Personal</legend>
+                <label>Name: *</label>
+                <input type="text" name="name" title="Este campo es obligatorio" required>
+                <br>
+                <br>
+                <label>Last name: *</label>
+                <input type="text" name="lastName" title="Este campo es obligatorio">
+                <br>
+                <br>
+                <label>Email: *</lael>
+                    <input type="email" name="email" title="Este campo es obligatorio">
+                    <br>
+                    <br>
+                    <label>Birthday * </label>
+                    <input type="date" value="birthday">
+                    <br>
+                    <br>
+
+                    <label>Select your favorite sport: </label>
+                    <select name="sportSelect" value="">
+                        <option value="football">Football</option>
+                        <option value="golf">Golf</option>
+                        <option value="tennis">Tennis</option>
+                        <option value="cycling">Cycling</option>
+                        <option value="swimming">Swimming</option>
+                    </select>
+                    <br>
+                    <br>
+
+
+                    <label>Write a short bio:</label>
+                    <br>
+                    <textarea name="textarea"></textarea>
+                    <br>
+                    <br>
+
+                    <input type="submit" value="Submit" />
+                    <input type="reset" value="Delete">
+            </fieldset>
+        </form>
+    </main>
 
 
 
 
 </body>
+
 </html>
