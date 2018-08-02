@@ -1,0 +1,55 @@
+body{
+    background: rgb(65, 63, 63);
+    color: white;
+}
+
+.header{
+    background-color: grey;
+    color: white;
+    width: 1300px;
+    height: 150px; 
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.nav{
+    background-color: grey;
+    color: white;
+    width: 200px;
+    height: 600px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.section{
+    position: relative;
+    float: right;
+    background-color: grey;
+    color: white;
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.aside{
+  
+    background-color: grey;
+    color: white;
+    width: 200px;
+    height: 600px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+.footer{
+    background-color: grey;
+    color: white;
+    width: 1300px;
+    height: 150px; 
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
